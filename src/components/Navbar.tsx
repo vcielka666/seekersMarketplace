@@ -15,9 +15,9 @@ const Navbar = async () => {
 
   return (
     <div className='bg-white sticky z-50 top-0 inset-x-0 h-16'>
-      <header className='relative bg-white'>
+      <header className='relative bg-white text-[gold] bg-[url("/seekersTheme/hviezdy.png")] bg-cover bg-center' style={{boxShadow:"0px 0px 14px rgb(52, 174, 190)"}}>
         <MaxWidthWrapper>
-          <div className='border-b border-gray-200'>
+          <div className=''>
             <div className='flex h-16 items-center'>
               <MobileNav />
 

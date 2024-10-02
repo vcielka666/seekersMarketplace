@@ -16,19 +16,19 @@ const perks = [
     name: 'Instant Delivery',
     Icon: ArrowDownToLine,
     description:
-      'Get your assets delivered to your email in seconds and download them right away.',
+      'Get your assets delivered in one day and enjoy them right away.',
   },
   {
     name: 'Guaranteed Quality',
     Icon: CheckCircle,
     description:
-      'Every asset on our platform is verified by our team to ensure our highest quality standards. Not happy? We offer a 30-day refund guarantee.',
+      'Every asset on our platform is verified by our team to ensure our highest quality standards.',
   },
   {
-    name: 'For the Planet',
+    name: 'Tribe membership',
     Icon: Leaf,
     description:
-      "We've pledged 1% of sales to the preservation and restoration of the natural environment.",
+      "Get yourself a TRIBE membership and become a seller.Our decentralized marketplace has no limits!",
   },
 ]
 
@@ -39,13 +39,13 @@ export default function Home() {
         <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
           <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
             Your marketplace for high-quality{' '}
-            <span className='text-blue-600'>
-              digital assets
+            <span className='text-[purple]'>
+              redeemable assets
             </span>
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to DigitalHippo. Every asset on our
+            Welcome to Seekers Marketplace. Every asset on our
             platform is verified by our team to ensure our
             highest quality standards.
           </p>
