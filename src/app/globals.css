@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Cacha';
+  src: url('/fonts/Cacha.ttf') format('truetype');
+}
+
+
+html, body {
+  font-family: 'Cacha'!important; /* Apply to all text */
+}
+
+.num-font {
+  font-family: 'Courier New', monospace; /* Use this class for numbers */
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

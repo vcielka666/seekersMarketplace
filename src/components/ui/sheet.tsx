@@ -39,7 +39,7 @@ const SheetOverlay = React.forwardRef<
 SheetOverlay.displayName = SheetPrimitive.Overlay.displayName
 
 const sheetVariants = cva(
-  "fixed z-50 gap-4 bg-background p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500",
+  "relative bg-[turquoise] fixed z-50 gap-4 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 before:absolute before:inset-0 before:bg-[url('/seekersTheme/synthBackground.jpg')] before:bg-cover before:bg-center before:opacity-50 before:z-[-1]",
   {
     variants: {
       side: {
@@ -56,6 +56,8 @@ const sheetVariants = cva(
     },
   }
 )
+
+
 
 interface SheetContentProps
   extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,

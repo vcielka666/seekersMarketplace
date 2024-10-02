@@ -70,6 +70,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        sans: ['Casha', 'sans-serif'],  // Set Casha as the default sans-serif font
+        numbers: ['Courier New', 'monospace'],  // Class for numbers
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
