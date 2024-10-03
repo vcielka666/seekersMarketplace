@@ -85,3 +85,9 @@ html, body {
   background: white !important;
   scale: 1 !important ;
 }
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}

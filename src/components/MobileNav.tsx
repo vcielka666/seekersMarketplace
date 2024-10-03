@@ -65,10 +65,10 @@ const MobileNav = () => {
                 {PRODUCT_CATEGORIES.map((category) => (
                   <li
                     key={category.label}
-                    className='space-y-10 px-4 pb-8 pt-10'>
-                    <div className='border-b border-gray-200'>
+                    className='space-y-10 px-4 pb-8 pt-10 '>
+                    <div className='border-b border-white'>
                       <div className='-mb-px flex'>
-                        <p className='border-transparent text-gray-900 flex-1 whitespace-nowrap border-b-2 py-4 text-base font-medium'>
+                        <p className='border-transparent flex-1 whitespace-nowrap border-b-2 py-4 text-base text-[2rem] text-[gold]'>
                           {category.label}
                         </p>
                       </div>
@@ -84,12 +84,12 @@ const MobileNav = () => {
                               fill
                               src={item.imageSrc}
                               alt='product category image'
-                              className='object-cover object-center'
+                              className='object-contain object-center'
                             />
                           </div>
                           <Link
                             href={item.href}
-                            className='mt-6 block font-medium text-gray-900'>
+                            className='mt-6 block font-medium text-[gold]'>
                             {item.name}
                           </Link>
                         </div>

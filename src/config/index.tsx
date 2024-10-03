@@ -1,27 +1,27 @@
 export const PRODUCT_CATEGORIES = [
     {
-      label: 'UI Kits',
+      label: 'In-game Items',
       value: 'ui_kits' as const,
       featured: [
         {
-          name: 'Editor picks',
+          name: 'Golden Key',
           href: `/products?category=ui_kits`,
-          imageSrc: '/nav/ui-kits/mixed.jpg',
+          imageSrc: '/seekersTheme/gameItems/item_key.png',
         },
         {
-          name: 'New Arrivals',
+          name: 'Summoner Wand',
           href: '/products?category=ui_kits&sort=desc',
-          imageSrc: '/nav/ui-kits/blue.jpg',
+          imageSrc: '/seekersTheme/gameItems/item_wand.gif',
         },
         {
-          name: 'Bestsellers',
+          name: 'Prospect Rune',
           href: '/products?category=ui_kits',
-          imageSrc: '/nav/ui-kits/purple.jpg',
+          imageSrc: '/seekersTheme/gameItems/item_rune.png',
         },
       ],
     },
     {
-      label: 'Icons',
+      label: 'Token RELICS',
       value: 'icons' as const,
       featured: [
         {

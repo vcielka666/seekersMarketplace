@@ -27,8 +27,8 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = 'DigitalHippo - the marketplace for digital assets',
-  description = 'DigitalHippo is an open-source marketplace for high-quality digital goods.',
+  title = 'Seekers Marketplace - the marketplace for redeemable digital assets',
+  description = 'Seekers Marketplace is an important part of the game that provides a way to get yourself high-quality gaming experience.',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
   noIndex = false,
@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://seekers-game.com'),
     ...(noIndex && {
       robots: {
         index: false,
